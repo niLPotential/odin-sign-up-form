@@ -1,4 +1,99 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+#container {
     height: 100vh;
     background: no-repeat center/100% url(./momoko.png);
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 25%;
+    width: 30%;
+    height: 10rem;
+    font-size: 4rem;
+    line-height: 1;
+    background-color: #efb86480;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+#sign {
+    height: 80%;
+}
+
+#disclaimer {
+    position: fixed;
+    width: 30%;
+    bottom: 0.75rem;
+    display: flex;
+    justify-content: center;
+}
+
+#content-wrapper {
+    height: 100%;
+    margin-left: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intro-wrapper {
+    padding: 0 15% 0 5%;
+    font-size: x-large;
+}
+
+#form-wrapper {
+    box-shadow: 0 -0.5rem 0.5rem rgba(0, 0, 0, 0.1), 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    padding: 2% 5%;
+    margin: 2.5rem 0;
+}
+
+#form-label {
+    font-size: larger;
+}
+
+.row-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: hsl(36, 81%, 34%);
+    font-weight: bold;
+}
+
+input {
+    width: 11rem;
+    margin: 0.5rem 0;
+}
+
+input:focus {
+    outline: #efb864 solid;
+}
+
+button {
+    background-color: #efb864;
+    font-size: large;
+    padding: 0.25rem 0.5rem;
+}
+
+#log-in {
+    margin: 0 5%;
+    font-size: large;
+}
+
+a {
+    color: hsl(36, 81%, 34%);
+    text-decoration: none;
+    font-weight: bold;
 }
